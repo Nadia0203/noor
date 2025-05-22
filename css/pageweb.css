@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(236, 224, 210);
+}
+
+h1 {
+  color: rgb(129, 22, 106);
+  border: 25px;
+  text-align: center;
+  font-size: xx-large;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: rgb(56, 18, 92);
+  border-radius: 50px;
+  background-color: rgb(178, 160, 194);
+  width: 150px;
+  text-align: center;
+  text-size-adjust: 50%;
+}
+section p :first-child {
+  color: rgb(150, 122, 177);
+}
+section p:nth-child(2) {
+  color: blueviolet;
+}
+
+h2 {
+}
+#logo{
+    width: 400px;
+}
+

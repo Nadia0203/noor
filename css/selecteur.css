@@ -1,0 +1,52 @@
+/* Selecteur css : */
+
+
+/* Selecteur Géneraux (body, p section) = nom des balises  */
+
+body{background-color: rgba(23, 67, 78, 0.062);}
+
+p{ background-color: rgb(220, 227, 245);}
+
+/* Selecteur un peu plus ciblés : ici on prend le premier p ( premier enfant) direct de section */
+section > p:first-child { background-color: rgb(150, 138, 149);}
+section > p:last-child { background-color: rgb(43, 226, 226);}
+
+/* nth-child() = on indique le numéro de l'élement à cibler (2 = éeme élement) */
+section > p:nth-child(2) {background-color: rgba(74, 25, 121, 0.459);}
+
+/* on cible aussi tous les élements pairs */
+section > p:nth-child(even) {background-color: rgb(0, 255, 128);}
+
+/* on cible aussi tous les élements impairs */
+section > p:nth-child(odd) {background-color: rgba(226, 43, 171, 0.329);}
+
+/* Ici section < p:nth-child (odd) prend la derniere priorité */
+
+/* la virgule sert a mettre plusieurs élements qui vont recevoir le meme CSS */
+
+h1,
+p, span { color: rgb(255, 0, 0);
+/* ATTENTION : La span est demandée en général, sauf que au dessus on cible directement avec section>p>span ( la priorité revient à celui qui est le mieux ciblé) */
+}
+
+/* ID , Class */
+/* id # id */
+
+#section1 { background-color: blueviolet; height: 100px ;}
+
+/* . class */
+
+.rouge { color: bisque;
+background-color: black; /* la class n'a pas la priorité, elle revient toujours a nth-child ( odd) */
+}
+
+section > p.rouge { background-color: black;}
+
+.raccourci { width: 50% ;}
+.font { font-family: Arial, Helvetica, sans-serif;}
+.border { border-radius: 50px;}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
