@@ -1,0 +1,22 @@
+table{
+
+ border-collapse: collapse;
+ 
+}
+ td {; width: 30px; height: 30px;}
+
+
+.vert { background-color: green;}
+
+.blanc { background-color: white;}
+
+.bleu { background-color: rgb(226, 23, 23);}
+
+.gris { background-color: grey;}
+
+.jaune { background-color: rgb(210, 147, 223);}
+
+.noir { background-color: black;}
+.rose { background-color: rgb(183, 197, 52);}
+body{ background-color: rgb(165, 44, 50);
+height: 100vh; margin: 5; display: flex; justify-content: center; align-items: center;}

@@ -1,0 +1,33 @@
+
+
+table{border-collapse: collapse; border-radius: 1px solid black }
+ 
+
+ td,th { width: 30px; height: 30px; border: 1px solid black}
+
+
+
+
+
+
+.noir { background-color: black;}
+
+.blondmiel { background-color: rgb(59, 44, 15);}
+
+.blondcendre { background-color: rgb(99, 60, 29);}
+
+.beige { background-color: rgb(230, 207, 174);}
+
+.beige1 { background-color: rgb(206, 182, 154) ;}
+
+.marron1 { background-color: rgb(49, 33, 9);}
+.marron2 { background-color: rgb(97, 67, 31);}
+.marron { background-color: rgb(112, 77, 34);}
+
+.vert { background-color: rgb(21, 80, 15);}
+.vert2 { background-color: rgb(48, 141, 40);}
+.vert3 { background-color: rgb(27, 71, 10);}
+
+.or { background-color: rgb(184, 199, 49);}
+.beige2 { background-color: rgb(241, 232, 176);}
+.beige3 { background-color: rgb(243, 228, 179);}
